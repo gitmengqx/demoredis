@@ -93,8 +93,6 @@ public class TestRedis {
         jedis.zadd("z1",80,"admin");
 
         System.out.println(jedis.zrange("z1",0,-1));
-
-        // testZset
     }
 
 }
